@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Swiper demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Oswald&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <!-- Demo styles -->
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <!-- Swiper -->
+
+    <div class="home">
+        <link rel="stylesheet" href="test.css">
+        <div class="swiper mySwiper2 swiper2">
+            <div class="swiper-wrapper ">
+
+                <div class="swiper-slide swiper-slide2">
+                    <div class="home-bg3">
+                        <div class="slide-text3 h2-box">
+
+
+                            <h4>Free Shipping - orders over $100</h4>
+                            <h1 class="home-h1 home2" style="font-family: Inter, sans-serif; font-size: 50px">
+                                Free Shipping On<br>Orders Over
+                                <span>$100</span>
+
+                            </h1>
+                            <h3 class="home-h3 h3-text">
+                                Free Shipping to First-Time Customers Only, After <br>  promotions and discounts are applied.
+                            </h3>
+                            <button id="shop" style="margin-left: -32em; background-color: #011E2B "><a
+                                    href="#product-page" class="shop">Shop now➜</a></button>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+        <div class="swiper2-pagination"></div>
+    </div>
+
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper2", {
+            spaceBetween: 0,
+            centeredSlides: true,
+            loop: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: ".swiper2-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+</body>
+
+</html>

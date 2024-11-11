@@ -1,0 +1,107 @@
+*{
+    padding: 0px;
+    margin: 5px;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+    scroll-behavior: smooth;
+
+}
+body{
+    overflow-x: hidden;
+}
+.footer{
+    margin: 0px 0px 0px -12px;
+    background-color: #ecf0ef;
+    height: 570px;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    width: 100vw;
+}
+
+.columns{   
+    height: 420px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+}
+
+
+.col1{
+    height: 300px;
+    margin-top: 78px;
+}
+
+.col-items{
+    display: flex;
+    flex-direction: column; 
+    margin: 0px 0px 0px 0px ;
+    padding: 0px 0px 0px 0px ;
+}
+
+
+.col1 li a{
+    font-weight: 550;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 15px;
+    color:  rgb(146, 143, 143);
+    
+}
+
+.l-head{
+    font-family: 'Roboto', sans-serif;
+    font-weight:550;
+    font-size: 17px;
+    margin: 0px 0px 13px 3px;
+}
+.col1 li a:hover{
+    color: #0aad0a;
+} 
+
+.l-item{
+    margin: 0px 0px 0px -20px;
+}
+
+.payment{
+    margin: 10px 0px 0px 6px ;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+}
+.payment h4{
+    margin: 15px 0px 0px 0px;
+    font-weight: 500;
+}
+.p-img{
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+.p-img>img{
+    object-fit: contain;
+}
+
+.p-img2{
+    display: flex;
+    width: 69%;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+
+.p-img2 h4{
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+.c-right{
+    margin: 10px 0px 0px 0px ;
+    font-size: 15px;
+    font-size: 15px;
+    color:  rgb(146, 143, 143);
+
+}

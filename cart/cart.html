@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+  
+    <link rel="stylesheet" href="cart.css">
+    <link rel="stylesheet" href="../nav.css">
+    <link rel="stylesheet" href="../footer.css">
+    
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Oswald&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <nav class="navbar" id="nav" style="margin: -8px -8px 0px -8px;">
+        <div class="logo">
+            <div class="logo-img">
+
+                <img src="/logos/logo2.png" alt="" srcset="">
+            </div>
+
+        </div>
+        <div class="nav-elements" id="elements">
+            <ul>
+                <li class="elements"><a href="../index.html">Home</a></li>
+                <li class="elements"><a href="../index.html#product-page">Shop</a></li>
+                <li class="elements"><a href="../about/about.html">About us</a></li>
+                <li class="elements"><a href="../contact.html">Contact us</a></li>
+                <li class="elements"><a href="#">Others</a></li>
+
+            </ul>
+            <button class="cart">
+               <a href="cart.html"> <svg xmlns="http://www.w3.org/2000/svg" height="1.25em"
+                viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <path
+                    d="M528.12 301.319l47.273-208C578.806 78.301 567.391 64 551.99 64H159.208l-9.166-44.81C147.758 8.021 137.93 0 126.529 0H24C10.745 0 0 10.745 0 24v16c0 13.255 10.745 24 24 24h69.883l70.248 343.435C147.325 417.1 136 435.222 136 456c0 30.928 25.072 56 56 56s56-25.072 56-56c0-15.674-6.447-29.835-16.824-40h209.647C430.447 426.165 424 440.326 424 456c0 30.928 25.072 56 56 56s56-25.072 56-56c0-22.172-12.888-41.332-31.579-50.405l5.517-24.276c3.413-15.018-8.002-29.319-23.403-29.319H218.117l-6.545-32h293.145c11.206 0 20.92-7.754 23.403-18.681z" />
+            </svg></a>
+            </button>
+            <button id="btn" class="open">Sign in</button>
+        </div>
+    </nav>
+
+<section class="cart-page">
+    <div class="c-head">
+        <h1>Shop Cart</h1>
+    </div>
+
+    <div class="cart-list">
+        <div class="cart-item">
+            <img src="" alt="">
+            <div class="c-text">
+                <h4>Haldiram's Sev Bhujia</h4>
+                <span>.98 / lb</span>
+                <span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-trash-2 text-success">
+                    <polyline points="3 6 5 6 21 6"></polyline>
+                    <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path>
+                    <line x1="10" y1="11" x2="10" y2="17"></line>
+                    <line x1="14" y1="11" x2="14" y2="17"></line>
+                 </svg>Remove</span>
+
+            </div>
+            <div class="c-input">
+                <input type="button" value="-" class="minus" data-field="quantity">
+                <input type="" value="1" class="count" >
+                <input type="button" value="+" class="minus" data-field="quantity">
+            </div>
+
+            <div class="c-price">
+                <h3><strong>$5.00</strong></h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <footer class="footer">
+        <div class="content">
+            <div class="columns">
+                <!-- list-1 -->
+                <div class="col1">
+                    <h4 class="l-head">Categories</h4>
+                    <ul class="col-items">
+                        <li><a href="" class="l-item">Vegetables & Fruits</a></li>
+                        <li><a href="" class="l-item">Breakfast & Instant food</a></li>
+                        <li><a href="" class="l-item">Bakery & Biscuits</a></li>
+                        <li><a href="" class="l-item">Atta, rice & dal</a></li>
+                        <li><a href="" class="l-item">Sauces & Spreads</a></li>
+                        <li><a href="" class="l-item">Organic & gaurmet</a></li>
+                        <li><a href="" class="l-item">Baby care</a></li>
+                        <li><a href="" class="l-item">Cleaning essentials</a></li>
+                        <li><a href="" class="l-item">Personal Care</a></li>
+                    </ul>
+                </div>
+
+                <!-- list-2 -->
+                <div class="col1">
+                    <h4 class="l-head" style="visibility: hidden;">Categories</h4>
+                    <ul class="col-items">
+                        <li><a href="" class="l-item">Dairy, bread & eggs</a></li>
+                        <li><a href="" class="l-item">Cold drinks & juices</a></li>
+                        <li><a href="" class="l-item">Tea, coffee & drinks</a></li>
+                        <li><a href="" class="l-item">Masala, oil & more</a></li>
+                        <li><a href="" class="l-item">Chicken, meat & fish</a></li>
+                        <li><a href="" class="l-item">Pharma & wellness</a></li>
+                        <li><a href="" class="l-item">Home & office</a></li>
+                        <li><a href="" class="l-item">Skin care</a></li>
+                        <li><a href="" class="l-item">Personal essentials </a></li>
+                    </ul>
+                </div>
+
+
+                <!-- list-3 -->
+                <div class="col1">
+                    <h4 class="l-head">Get to know us</h4>
+                    <ul class="col-items">
+                        <li><a href="" class="l-item">Company</a></li>
+                        <li><a href="" class="l-item">About</a></li>
+                        <li><a href="" class="l-item">Blog</a></li>
+                        <li><a href="" class="l-item">Help Center</a></li>
+                        <li><a href="" class="l-item">Our Value</a></li>
+                    </ul>
+                </div>
+
+
+                <!-- list-4 -->
+                <div class="col1">
+                    <h4 class="l-head">Become a Shopper</h4>
+                    <ul class="col-items">
+                        <li><a href="" class="l-item">Shopper Opportunities</a></li>
+                        <li><a href="" class="l-item">Become a Shopper</a></li>
+                        <li><a href="" class="l-item">Earnings</a></li>
+                        <li><a href="" class="l-item">Ideas & Guides</a></li>
+                        <li><a href="" class="l-item">New Retailers</a></li>
+                    </ul>
+                </div>
+
+
+                <!-- list-5 -->
+                <div class="col1">
+                    <h4 class="l-head">For Consumers</h4>
+                    <ul class="col-items">
+                        <li><a href="" class="l-item">Payments</a></li>
+                        <li><a href="" class="l-item">Shipping</a></li>
+                        <li><a href="" class="l-item">Product Returns</a></li>
+                        <li><a href="" class="l-item">FAQ</a></li>
+                        <li><a href="" class="l-item">Shop Checkout</a></li>
+                    </ul>
+                </div>
+
+
+                <!-- list-6 -->
+                <div class="col1">
+                    <h4 class="l-head">Freshcart programs</h4>
+                    <ul class="col-items">
+                        <li><a href="" class="l-item">Freshcart programs</a></li>
+                        <li><a href="" class="l-item">Gift Cards</a></li>
+                        <li><a href="" class="l-item">Promos & Coupons</a></li>
+                        <li><a href="" class="l-item">Freshcart Ads</a></li>
+                        <li><a href="" class="l-item">Careers</a></li>
+                </div>
+
+            </div>
+
+
+            <div class="payment">
+                <h4>Payment Partners</h4>
+                <div class="p-img">
+                    <img src="/images/apay.svg" alt="" srcset="">
+                    <img src="/images/a-exp.svg" alt="" srcset="">
+                    <img src="/images/mcard.svg" alt="" srcset="">
+                    <img src="/images/paypal.svg" alt="" srcset="">
+                    <img src="/images/visa.svg" alt="" srcset="">
+                </div>
+                <div class="p-img2">
+                    <h4>Get deliveries with FreshCart</h4>
+                    <div class="p-img">
+                        <img src="/images/appstore-btn.svg" alt="" srcset="" style="scale: 1.2;margin-right: 25px;">
+                        <img src="/images/googleplay-btn.svg" alt="" srcset="" style="scale: 1.2;">>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="c-right">
+                <p>© 2022 - 2023 FreshCart eCommerce HTML Template. All rights reserved.</p>
+            </div>
+        </div>
+
+
+    </footer>

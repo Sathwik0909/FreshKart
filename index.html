@@ -1,0 +1,894 @@
+<!DOCTYPE html>
+ <html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freshkart</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- <link rel="stylesheet" href="/about/about.css"> -->
+   
+    <link rel="stylesheet" href="signin.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="homeslide.css">
+   
+    
+    
+   
+    <!-- <link rel="stylesheet" href="signin.css"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Oswald&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <nav class="navbar" id="nav">
+        <div class="logo">
+            <div class="logo-img">
+
+                <img src="/logos/logo2.png" alt="" srcset="">
+            </div>
+
+        </div>
+        <div class="nav-elements" id="elements">
+            <ul>
+                <li class="elements"><a href="index.html">Home</a></li>
+                <li class="elements"><a href="#product-page">Shop</a></li>
+                <li class="elements"><a href="/about/about.html">About us</a></li>
+                <li class="elements"><a href="contact.html">Contact us</a></li>
+                <li class="elements"><a href="#">Others</a></li>
+
+            </ul>
+            <button class="cart">
+                <a href="cart/cart.html"> <svg xmlns="http://www.w3.org/2000/svg" height="1.25em"
+                 viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                 <path
+                     d="M528.12 301.319l47.273-208C578.806 78.301 567.391 64 551.99 64H159.208l-9.166-44.81C147.758 8.021 137.93 0 126.529 0H24C10.745 0 0 10.745 0 24v16c0 13.255 10.745 24 24 24h69.883l70.248 343.435C147.325 417.1 136 435.222 136 456c0 30.928 25.072 56 56 56s56-25.072 56-56c0-15.674-6.447-29.835-16.824-40h209.647C430.447 426.165 424 440.326 424 456c0 30.928 25.072 56 56 56s56-25.072 56-56c0-22.172-12.888-41.332-31.579-50.405l5.517-24.276c3.413-15.018-8.002-29.319-23.403-29.319H218.117l-6.545-32h293.145c11.206 0 20.92-7.754 23.403-18.681z" />
+             </svg></a>
+            </button>
+            <button  id="btn" class="open">Sign in</button>
+
+            <dialog id="modal" class="modal">
+        
+                <form id="login-form" method="dialog">
+                    <div class="form-top"><h2 class="s-heading">Sign Up</h2>
+                        <button id="close" ><img src="/images/close.svg" alt="" style="width: 25px;margin: 0px;"></button></div>
+                    <!-- Your regular sign-in fields go here -->
+                    <label for="name">Name</label>
+                    <input placeholder="Enter Your Name" type="text" id="name" name="name" >
+                    <br>
+                    <label for="email">Email address</label>
+                    <input placeholder="Enter Email address" type="email" id="email" name="email" >
+                    <br>
+                    <label for="password">Password</label>
+                    <input placeholder="Enter Password" type="password" id="password" name="password" >
+                    
+                    <small class="form-text">
+                        By Signup, you agree to our
+                        <a href="#!" id="f-text">Terms of Service</a>
+                        &amp;
+                        <a href="#!" id="f-text">Privacy Policy</a>
+                    </small>
+                    <button type="submit" id="signin-btn">Sign up</button>
+                    
+                    <small class="form-text" id="l-text">
+                        Already have an account?
+                        <a href="#!" id="f-text">Sign in</a>
+                        
+                    </small>
+                </form>
+               
+            </dialog>
+            <!-- <dialog id="myDialog">
+                <iframe id="dialoFrame" src="signin.html" frameborder="0"></iframe>
+            </dialog> -->
+
+        </div>
+
+    </nav>
+
+    <section class="home-sec">
+        <div class="home">
+            <!-- <link rel="stylesheet" href="test.css"> -->
+            <div class="swiper mySwiper2 swiper2">
+                <div class="swiper-wrapper ">
+                    <div class="swiper-slide swiper-slide2">
+                        <div class="slide-text2">
+    
+                            <h3 class="home-h3">vegetables you should be eating</h3>
+                            <h1 class="home-h1">
+                                Best Tasty & Healthy Organic Fruits
+                            </h1>
+                            <button id="shop"><a href="#product-page" class="shop">Shop now➜</a></button>
+    
+    
+                        </div>
+                        <div class="home-bg"></div>
+    
+                    </div>
+
+
+                    <div class="swiper-slide swiper-slide2">
+                        <div class="home-bg2">
+                            <div class="slide-text2 h2-box">
+    
+                               
+                                <h4>Opening Sale Discount 50%</h4>
+                                <h1 class="home-h1 home2" style="font-family: Inter, sans-serif; font-size: 50px">
+                                    SuperMarket For<br>Fresh Grocery
+    
+                                </h1>
+                                <h3 class="home-h3 h3-text">
+                                    Introduced a new model for online grocery shopping <br> and convenient home delivery.
+                                    </h3>
+                                <button id="shop"  style="margin-left: 53px; background-color: #011E2B "><a href="#product-page" class="shop">Shop now➜</a></button>
+    
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="swiper-slide swiper-slide2">
+                        <div class="home-bg3">
+                            <div class="slide-text3 h2-box">
+    
+    
+                                <h4>Free Shipping - orders over $100</h4>
+                                <h1 class="home-h1 home2" style="font-family: Inter, sans-serif; font-size: 50px">
+                                    Free Shipping On<br>Orders Over
+                                    <span>$100</span>
+    
+                                </h1>
+                                <h3 class="home-h3 h3-text">
+                                    Free Shipping to First-Time Customers Only, After <br>  promotions and discounts are applied.
+                                </h3>
+                                <button id="shop" style="margin-left: -30em; background-color: #011E2B "><a
+                                        href="#product-page" class="shop">Shop now➜</a></button>
+    
+                            </div>
+                        </div>
+                    </div>
+    
+                </div>
+    
+    
+            </div>
+            <div class="swiper2-pagination"></div>
+        </div>
+    </section>
+
+    <section class="categories">
+        <div class="c-heading">
+            <h2>Featured Categories</h2>
+        </div>
+        
+            <div class="swiper mySwiper1 swiper1">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide swiper-slide1 ">
+                        <img src="/images/instant.png" alt="" id="image">
+                        <div class="slide-text1">
+                            Instant Food
+                        </div>
+                    </div>
+                    <div class="swiper-slide swiper-slide1 ">
+                        <img src="/images/atta.png" alt="" id="image">
+                        <div class="slide-text1">
+                            Atta, Rice
+                        </div>
+                    </div>
+                    <div class="swiper-slide swiper-slide1 ">
+                        <img src="/images/baby.png" alt="" id="image">
+                        <div class="slide-text1">
+                            Baby Care
+                        </div>
+                    </div>
+                    <div class="swiper-slide swiper-slide1 ">
+                        <img src="/images/pet-care.png" alt="" id="image">
+                        <div class="slide-text1">
+                            Pet Care
+                        </div>
+                    </div>
+                    <div class="swiper-slide swiper-slide1 ">
+                        <img src="/images/tea.png" alt="" id="image">
+                        <div class="slide-text1">
+                            Tea, Bevarages
+                        </div>
+                    </div>
+                    <div class="swiper-slide swiper-slide1 ">
+                        <img src="/images/clean.webp" alt="" id="image">
+                        <div class="slide-text1">
+                            Cleaning Essentials
+                        </div>
+                    </div>
+                    <div class="swiper-slide swiper-slide1 ">
+                        <img src="/images/skin.png" alt="" id="image">
+                        <div class="slide-text1">
+                            Skin Care
+                        </div>
+                    </div>
+                    <div class="swiper-slide swiper-slide1 ">
+                        <img src="/images/dairy-bread.png" alt="" id="image">
+                        <div class="slide-text1">
+                            Dairy, Bread & Eggs
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+    </section>
+
+    <section class="services" id="services">
+        <div class="service-1">
+            <img src="/images/fruits.jpg" alt="" srcset="">
+            <div class="serv-text">
+                <h2><b>Fruits & Vegetables</b></h2>
+                <p>Get up to <strong>30%</strong> off</p>
+                <button id="serv-shop">Shop now</button>
+            </div>
+        </div>
+
+        <div class="service-1">
+            <img src="/images/braed.jpg" alt="">
+            <div class="serv-text2">
+                <h2><b>Freshly Baked Buns</b></h2>
+                <p>Get up to <strong>25%</strong> off</p>
+                <button id="serv-shop">Shop now</button>
+            </div>
+        </div>
+    </section>
+    <h2 class="product-h" id="product-page">
+        Popular Products
+    </h2>
+    <section class="products">
+        <!-- card-1  -->
+        <div class="product-card">
+
+            <span class="product-btn">Sale</span>
+
+            <div class="product-img">
+                <img src="/product/bhujiya.jpg" alt="" id>
+            </div>
+
+            <div class="product-txt">
+                <p>Snacks & Munchies</p>
+                <h4>Bikano Kurkuri Bhujiya</h4>
+            </div>
+            <div class="rating">
+                <div id="star-rtng">
+
+                </div>
+                <p>4(156)</p>
+            </div>
+            <div class="price">
+                <p id="nprice"><strong>$18</strong></p>
+                <p id="bprice">
+                    $24
+                </p>
+
+                <button id="add"> + Add</button>
+            </div>
+
+        </div>
+
+        </div>
+        <!-- card-2  -->
+
+        <div class="product-card">
+
+            <span class="product-btn" style="visibility: hidden;">Hot</span>
+
+            <div class="product-img">
+                <img src="/product/cornflakes.jpg" alt="" id>
+            </div>
+
+            <div class="product-txt">
+                <p>Instant Food</p>
+                <h4>Kellogg's Corn Flakes</h4>
+            </div>
+            <div class="rating">
+                <div id="star-rtng2" style="margin: 0px;">
+
+                </div>
+                <p>4.5(295)</p>
+            </div>
+            <div class="price">
+                <p id="nprice"><strong>$32</strong></p>
+                <p id="bprice" style="visibility: hidden;">
+                    $35
+                </p>
+
+                <button id="add"> + Add</button>
+            </div>
+
+        </div>
+
+        </div>
+        <!-- card-3  -->
+
+        <div class="product-card">
+
+            <span class="product-btn" style="visibility: hidden;">Hot</span>
+
+            <div class="product-img">
+                <img src="/product/dairy milk.jpg" alt="" id>
+            </div>
+
+            <div class="product-txt">
+                <p>Chocolates</p>
+                <h4>Cadbury Dairy Milk</h4>
+            </div>
+            <div class="rating">
+                <div id="star-rtng3">
+
+                </div>
+                <p>5(467)</p>
+            </div>
+            <div class="price">
+                <p id="nprice"><strong>$10</strong></p>
+                <p id="bprice" style="visibility: hidden;">
+                    $35
+                </p>
+
+                <button id="add"> + Add</button>
+            </div>
+
+        </div>
+
+        </div>
+        <!-- card-4  -->
+
+        <div class="product-card">
+
+            <span class="product-btn"
+                style="background-color: #198754; width: 33px; height: 18px;padding-top: 3px;">10%</span>
+
+            <div class="product-img">
+                <img src="/product/gooday.jpg" alt="" id>
+            </div>
+
+            <div class="product-txt">
+                <p>Bakery & Biscuits</p>
+                <h4>Goodday Cookies</h4>
+            </div>
+            <div class="rating">
+                <div id="star-rtng4">
+
+                </div>
+                <p>3.5(205)</p>
+            </div>
+            <div class="price">
+                <p id="nprice"><strong>$5</strong></p>
+                <p id="bprice">
+                    $6
+                </p>
+
+                <button id="add"> + Add</button>
+            </div>
+
+        </div>
+
+        </div>
+        <!-- card-5  -->
+
+        <div class="product-card">
+
+            <span class="product-btn" style="visibility: hidden;">sale</span>
+
+            <div class="product-img">
+                <img src="/product/kurkure.jpg" alt="" id>
+            </div>
+
+            <div class="product-txt">
+                <p>Snacks & Munchies</p>
+                <h4>Kurkure Masala Munch</h4>
+            </div>
+            <div class="rating">
+                <div id="star-rtng5">
+
+                </div>
+                <p>5(628)</p>
+            </div>
+            <div class="price">
+                <p id="nprice"><strong>$9</strong></p>
+                <p id="bprice" style="visibility: hidden;">
+                    $15
+                </p>
+
+                <button id="add"> + Add</button>
+            </div>
+
+        </div>
+
+        </div>
+        <!-- card-6  -->
+
+        <div class="product-card">
+
+            <span class="product-btn"
+                style="background-color: #198754; width: 33px; height: 18px;padding-top: 3px;">16%</span>
+
+            <div class="product-img">
+                <img src="/product/lays.jpg" alt="" id>
+            </div>
+
+            <div class="product-txt">
+                <p>Chips & Snacks</p>
+                <h4>Lays Classic Potato</h4>
+            </div>
+            <div class="rating">
+                <div id="star-rtng6">
+
+                </div>
+                <p>4.5(156)</p>
+            </div>
+            <div class="price">
+                <p id="nprice"><strong>$4</strong></p>
+                <p id="bprice">
+                    $6
+                </p>
+
+                <button id="add"> + Add</button>
+            </div>
+
+        </div>
+
+        </div>
+        <!-- card-7  -->
+        <div class="product-card">
+
+            <span class="product-btn" style="visibility: hidden;">Sale</span>
+
+            <div class="product-img">
+                <img src="/product/maggi.jpg" alt="" id>
+            </div>
+
+            <div class="product-txt">
+                <p>Instant Noodles</p>
+                <h4>Maggi 2-Min Noodles</h4>
+            </div>
+            <div class="rating">
+                <div id="star-rtng7">
+
+                </div>
+                <p>4(328)</p>
+            </div>
+            <div class="price">
+                <p id="nprice"><strong>$15</strong></p>
+                <p id="bprice" style="visibility: hidden;">
+                    $20
+                </p>
+
+                <button id="add"> + Add</button>
+            </div>
+
+        </div>
+
+        </div>
+
+        <!-- card-8  -->
+
+        <div class="product-card">
+
+            <span class="product-btn" style="visibility: hidden;">Sale</span>
+
+            <div class="product-img">
+                <img src="/product/peanut.jpg" alt="" id>
+            </div>
+
+            <div class="product-txt">
+                <p>Dairy, Butter</p>
+                <h4>Peanut Butter Spread</h4>
+            </div>
+            <div class="rating">
+                <div id="star-rtng8">
+
+                </div>
+                <p>3(126)</p>
+            </div>
+            <div class="price">
+                <p id="nprice"><strong>$20</strong></p>
+                <p id="bprice" style="visibility: hidden;">
+                    $24
+                </p>
+
+                <button id="add"> + Add</button>
+            </div>
+
+        </div>
+
+        </div>
+
+        <!-- card-9  -->
+        <div class="product-card">
+
+            <span class="product-btn" style="background-color: #2874f0; width: 65px;">Best Seller</span>
+
+            <div class="product-img">
+                <img src="/product/nutri.jpg" alt="" id>
+            </div>
+
+            <div class="product-txt">
+                <p>Biscuits & Crakers</p>
+                <h4>Nutri Choice Biscuits</h4>
+            </div>
+            <div class="rating">
+                <div id="star-rtng9">
+
+                </div>
+                <p>4(156)</p>
+            </div>
+            <div class="price">
+                <p id="nprice"><strong>$8</strong></p>
+                <p id="bprice">
+                    $12
+                </p>
+
+                <button id="add"> + Add</button>
+            </div>
+
+        </div>
+
+        </div>
+
+        <!-- card-10  -->
+        <div class="product-card">
+
+            <span class="product-btn">Hot</span>
+
+            <div class="product-img">
+                <img src="/product/pringles.jpg" alt="" id>
+            </div>
+
+            <div class="product-txt">
+                <p>Snacks & Munchies</p>
+                <h4>Pringles original</h4>
+            </div>
+            <div class="rating">
+                <div id="star-rtng10">
+
+                </div>
+                <p>5(476)</p>
+            </div>
+            <div class="price">
+                <p id="nprice"><strong>$16</strong></p>
+                <p id="bprice">
+                    $23
+                </p>
+
+                <button id="add"> + Add</button>
+            </div>
+
+        </div>
+
+        </div>
+
+    </section>
+
+    <section class="offers">
+        <div class="offer1" style=" background-image: url('/product/offer-1.jpg');">
+            <div class="offer-txt">
+                <h2 style="font-family: 'Roboto', sans-serif;">10% cashback on
+                    personal care </h2>
+                <span style="font-family: 'Roboto', sans-serif;margin-top: 12px;color: rgb(142 139 139);;">Max cashback:
+                    $12</span>
+                <span style="font-family: 'Roboto', sans-serif;margin-top: 0px;color: rgb(142 139 139);;">Code: <strong
+                        style="color: black;">CARE12</strong> </span>
+                <button id="offer-btn"> Shop Now</button>
+            </div>
+        </div>
+        <div class="offer1" style=" background-image: url('/product/offer-2.jpg');">
+            <div class="offer-txt">
+                <h2 style="font-family: 'Roboto', sans-serif;">Say yes to
+                    season’s fresh </h2>
+                <span style="font-family: 'Roboto', sans-serif;margin-top: 12px;color: rgb(142 139 139);;">Refresh your
+                    day
+                    the fruity way</span>
+
+                <button id="offer-btn"> Shop Now</button>
+            </div>
+        </div>
+        <div class="offer1" style=" background-image: url('/product/offer-3.jpg');">
+            <div class="offer-txt">
+                <h2 style="font-family: 'Roboto', sans-serif;">When in doubt,
+                    eat ice cream </h2>
+                <span style="font-family: 'Roboto', sans-serif;margin-top: 12px;color: rgb(142 139 139);;">Enjoy a scoop
+                    of
+                    summer today</span>
+
+                <button id="offer-btn"> Shop Now</button>
+            </div>
+        </div>
+    </section>
+
+
+    <h2 class="container-head">Daily Best Sells</h2>
+    <section class="container">
+
+        <!-- card 1 -->
+        <div class="c-card" id="card-1">
+
+            <div class="card-txt" id="card1-txt">
+                <h2>
+                    <strong>100% Organic Coffee Beans</strong>
+                </h2>
+                <p>Get the best deal before close.</p>
+
+                <button id="c-add"> Shop Now ➜</button>
+
+            </div>
+
+        </div>
+
+        <!-- card 2 -->
+        <div class="c-card">
+            <div class="card-img">
+                <img src="/product/cafe.jpg" alt="" srcset="">
+            </div>
+            <div class="card-txt">
+                <p style="color: rgb(120, 119, 119);">Tea, Coffee & Drinks</p>
+                <h4>Roast Ground Coffee</h4>
+            </div>
+
+            <div class="card-price">
+
+                <div class="price" style="padding-bottom: 4px;margin-left: -15px;">
+                    <p id="nprice"><strong>$16</strong></p>
+                    <p id="bprice">
+                        $23
+                    </p>
+                </div>
+                <div class="crating">
+                    <div id="star-rtng11">
+
+                    </div>
+                    <p style="padding-top: 4px; ">5(158)</p>
+                </div>
+            </div>
+
+
+            <button id="c-add"> + Add to cart</button>
+
+
+        </div>
+
+        <!-- card 3 -->
+        <div class="c-card">
+            <div class="card-img">
+                <img src="/product/pine.jpg" alt="" srcset="">
+            </div>
+            <div class="card-txt">
+                <p style="color: rgb(120, 119, 119);">Fruits & Vegetables</p>
+                <h4>Crushed Tomatoes</h4>
+            </div>
+
+            <div class="card-price">
+
+                <div class="price" style="padding-bottom: 4px;margin-left: -15px;">
+                    <p id="nprice"><strong>$13</strong></p>
+                    <p id="bprice">
+                        $28
+                    </p>
+                </div>
+                <div class="crating">
+                    <div id="star-rtng12">
+
+                    </div>
+                    <p style="padding-top: 4px; ">4(246)</p>
+                </div>
+            </div>
+
+
+            <button id="c-add"> + Add to cart</button>
+
+
+        </div>
+
+        <!-- card 4 -->
+        <div class="c-card">
+            <div class="card-img">
+                <img src="/product/tomato.jpg" alt="" srcset="">
+            </div>
+            <div class="card-txt">
+                <p style="color: rgb(120, 119, 119);">Fruits & Vegetables</p>
+                <h4>Golden Pineapple</h4>
+            </div>
+
+            <div class="card-price">
+
+                <div class="price" style="padding-bottom: 4px;margin-left: -15px;">
+                    <p id="nprice"><strong>$16</strong></p>
+                    <p id="bprice">
+                        $23
+                    </p>
+                </div>
+                <div class="crating">
+                    <div id="star-rtng13">
+
+                    </div>
+                    <p style="padding-top: 4px; ">4.5(278)</p>
+                </div>
+            </div>
+
+
+            <button id="c-add"> + Add to cart</button>
+
+
+        </div>
+
+
+    </section>
+
+
+    <section class="features">
+        <div class="f-card">
+            <div class="f-img"><img src="/images/clock.svg" alt="" srcset="" style="object-fit: contain; scale: 1.2;">
+            </div>
+            <div class="f-txt">
+                <h4 id="f-head">10 minute grocery now</h4>
+                <p style="color: rgb(157, 155, 155);">Get your order delivered to your doorstep at the earliest from
+                    FreshCart pickup stores near you.</p>
+            </div>
+        </div>
+        <div class="f-card">
+            <div class="f-img"><img src="/images/gift.svg" alt="" srcset="" style="object-fit: contain; scale: 1.2;">
+            </div>
+            <div class="f-txt">
+                <h4 id="f-head">Best Prices & Offers</h4>
+                <p style="color: rgb(157, 155, 155);">Cheaper prices than your local supermarket, great cashback offers
+                    to top it off. Get best pricess & offers.
+            </div>
+        </div>
+        <div class="f-card">
+            <div class="f-img"><img src="/images/package.svg" alt="" srcset="" style="object-fit: contain; scale: 1.2;">
+            </div>
+            <div class="f-txt">
+                <h4 id="f-head">Wide Assortment</h4>
+                <p style="color: rgb(157, 155, 155);">Choose from 5000+ products across food, personal care, household,
+                    bakery, veg and non-veg & other categories.</p>
+            </div>
+        </div>
+        <div class="f-card">
+            <div class="f-img"><img src="/images/return.svg" alt="" srcset="" style="object-fit: contain; scale: 1.2;">
+            </div>
+            <div class="f-txt">
+                <h4 id="f-head">Easy Returns</h4>
+                <p style="color: rgb(157, 155, 155);">Not satisfied with a product? Return it at the doorstep & get a
+                    refund within hours. No questions asked policy .</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="content">
+            <div class="columns">
+                <!-- list-1 -->
+                <div class="col1">
+                    <h4 class="l-head">Categories</h4>
+                    <ul class="col-items">
+                        <li><a href="#services" class="l-item">Vegetables & Fruits</a></li>
+                        <li><a href="#items" class="l-item">Breakfast & Instant food</a></li>
+                        <li><a href="#product-page" class="l-item">Bakery & Biscuits</a></li>
+                        <li><a href="#items" class="l-item">Atta, rice & dal</a></li>
+                        <li><a href="#product-page" class="l-item">Sauces & Spreads</a></li>
+                        <li><a href="" class="l-item">Organic & gaurmet</a></li>
+                        <li><a href="#items" class="l-item">Baby care</a></li>
+                        <li><a href="#items" class="l-item">Cleaning essentials</a></li>
+                        <li><a href="" class="l-item">Personal Care</a></li>
+                    </ul>
+                </div>
+
+                <!-- list-2 -->
+                <div class="col1">
+                    <h4 class="l-head" style="visibility: hidden;">Categories</h4>
+                    <ul class="col-items">
+                        <li><a href="#services" class="l-item">Dairy, bread & eggs</a></li>
+                        <li><a href="" class="l-item">Cold drinks & juices</a></li>
+                        <li><a href="" class="l-item">Tea, coffee & drinks</a></li>
+                        <li><a href="" class="l-item">Masala, oil & more</a></li>
+                        <li><a href="" class="l-item">Chicken, meat & fish</a></li>
+                        <li><a href="" class="l-item">Pharma & wellness</a></li>
+                        <li><a href="" class="l-item">Home & office</a></li>
+                        <li><a href="" class="l-item">Skin care</a></li>
+                        <li><a href="" class="l-item">Personal essentials </a></li>
+                    </ul>
+                </div>
+
+
+                <!-- list-3 -->
+                <div class="col1">
+                    <h4 class="l-head">Get to know us</h4>
+                    <ul class="col-items">
+                        <li><a href="" class="l-item">Company</a></li>
+                        <li><a href="" class="l-item">About</a></li>
+                        <li><a href="" class="l-item">Blog</a></li>
+                        <li><a href="" class="l-item">Help Center</a></li>
+                        <li><a href="" class="l-item">Our Value</a></li>
+                    </ul>
+                </div>
+
+
+                <!-- list-4 -->
+                <div class="col1">
+                    <h4 class="l-head">Become a Shopper</h4>
+                    <ul class="col-items">
+                        <li><a href="" class="l-item">Shopper Opportunities</a></li>
+                        <li><a href="" class="l-item">Become a Shopper</a></li>
+                        <li><a href="" class="l-item">Earnings</a></li>
+                        <li><a href="" class="l-item">Ideas & Guides</a></li>
+                        <li><a href="" class="l-item">New Retailers</a></li>
+                    </ul>
+                </div>
+
+
+                <!-- list-5 -->
+                <div class="col1">
+                    <h4 class="l-head">For Consumers</h4>
+                    <ul class="col-items">
+                        <li><a href="" class="l-item">Payments</a></li>
+                        <li><a href="" class="l-item">Shipping</a></li>
+                        <li><a href="" class="l-item">Product Returns</a></li>
+                        <li><a href="contact.html" class="l-item">FAQ</a></li>
+                        <li><a href="" class="l-item">Shop Checkout</a></li>
+                    </ul>
+                </div>
+
+
+                <!-- list-6 -->
+                <div class="col1">
+                    <h4 class="l-head">Freshcart programs</h4>
+                    <ul class="col-items">
+                        <li><a href="" class="l-item">Freshcart programs</a></li>
+                        <li><a href="" class="l-item">Gift Cards</a></li>
+                        <li><a href="" class="l-item">Promos & Coupons</a></li>
+                        <li><a href="" class="l-item">Freshcart Ads</a></li>
+                        <li><a href="" class="l-item">Careers</a></li>
+                </div>
+
+            </div>
+
+
+            <div class="payment">
+                <h4>Payment Partners</h4>
+                <div class="p-img">
+                    <img src="/images/apay.svg" alt="" srcset="">
+                    <img src="/images/a-exp.svg" alt="" srcset="">
+                    <img src="/images/mcard.svg" alt="" srcset="">
+                    <img src="/images/paypal.svg" alt="" srcset="">
+                    <img src="/images/visa.svg" alt="" srcset="">
+                </div>
+                <div class="p-img2">
+                    <h4>Get deliveries with FreshCart</h4>
+                    <div class="p-img">
+                        <img src="/images/appstore-btn.svg" alt="" srcset="" style="scale: 1.2;margin-right: 25px;">
+                        <img src="/images/googleplay-btn.svg" alt="" srcset="" style="scale: 1.2;">>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="c-right">
+                <p>© 2022 - 2023 FreshCart eCommerce HTML Template. All rights reserved.</p>
+            </div>
+        </div>
+
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="index.js"></script>
+</body>
+
+
+</html>
